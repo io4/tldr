@@ -1,0 +1,27 @@
+# ssh-add
+
+> Adds private keys to ssh agent
+
+- Add all private keys in ssh directories
+
+`ssh-add`
+
+- Adds a private key:
+
+`ssh-add {{private_key}}`
+
+- Delete a key
+
+`ssh-add -d {{public_key}`
+
+- List keys:
+
+`ssh-add -l`
+
+- Lock with password:
+
+`ssh-add -x`
+
+- Unlock:
+
+`ssh-add -X`
